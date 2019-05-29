@@ -11,9 +11,9 @@ Espaço reservado em memória para armazenar um valor temporariamente.
 ### Exemplo 1 - Tipos de Variáveis
 
 ##Tipos de Viriáveis
-**String** - textos
-**int** - números inteiros
-**double** - números decimais
+- **String** - textos
+- **int** - números inteiros
+- **double** - números decimais
 
 ```
 void(){
