@@ -57,7 +57,7 @@ void main() {
 
 **.toStringAsFixed = dita a quantidade de digitos após a vírgula ou ponto**
 
-**if = cria uma codição lógica
+**if = cria uma codição lógica**
 
 ```dart
 void main() {
