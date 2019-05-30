@@ -125,9 +125,9 @@ O IF serve para determinar se um bloco de untruções **deve** ou **não** ser e
 
 - == *Igualdade*
 - != *Difrente*
-- >= *Maior ou Igual*
+- \>= *Maior ou Igual*
 - <= *Menor ou Igual*
-- > *Maior*
+- \> *Maior*
 - < *Menor*
 
 ### Sintaxe
