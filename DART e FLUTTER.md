@@ -55,8 +55,7 @@ void main() {
 
 ## Aula 2
 
-```
-# Dart
+```dart
 void main() {
 	String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
   
@@ -110,5 +109,4 @@ void main() {
   print("Renda familiar: R\$ $renda_familiar");
   print("Renda por pessoa: R\$ ${renda_pessoa.toStringAsFixed(2)}");
   }
-  
 ```
