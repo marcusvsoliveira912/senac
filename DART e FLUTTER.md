@@ -15,7 +15,7 @@ Espaço reservado em memória para armazenar um valor temporariamente.
 - **int** - números inteiros
 - **double** - números decimais
 
-```
+```dart
 void(){
   String nome = "Marcus";
   int idade = 17;
@@ -25,7 +25,7 @@ void(){
 
 ### Exemplo 2 - Cálculo Simples
 
-```
+```dart
 void main() {
  /* Criar variaveis para nome, sobrenome, email e ano de 
   * nascimento, calcular a idade e mostrar ao final uma msg
@@ -149,7 +149,7 @@ else
 
 ```dart 
 
-string curso = "programador android";
+String curso = "programador android";
 
 if(curso == "programador android")
 {
