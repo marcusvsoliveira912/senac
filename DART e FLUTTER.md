@@ -101,6 +101,7 @@ void main() {
   
   print("Sexo: $sexo");
   print("CPF: $cpf");
+  print("Email: $email");
   print("Celular: $celular");
   print("Endereço: $endereco");
   print("Idade: $idade");
@@ -113,4 +114,5 @@ void main() {
   print("Renda familiar: R\$ $renda_familiar");
   print("Renda por pessoa: R\$ ${renda_pessoa.toStringAsFixed(2)}");
   }
+
 ```
