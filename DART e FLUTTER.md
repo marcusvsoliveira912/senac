@@ -161,3 +161,36 @@ else
 }
 
 ```
+
+### Exemplo 2
+
+```dart
+
+void main() {
+/*Criar 3 variaveis "double"
+ *nota1, nota2, média
+ Fazer o "if" testando SE a media for
+ maior ou igual a 5:
+ 
+ print("APROVADO - PASSOU !!!!")
+ senao
+ print("REPROVADO ...")*/
+  
+double nota1, nota2, media;
+  
+  nota1 = 4.5;
+  nota2 = 3.2;
+  media = nota1 + nota2;
+  media = media / 2;
+  
+  if(media >= 5)
+  {
+    	print("Aprovado com média: $media");
+  }
+  else
+  {
+    	print("Reprovado com média: $media");
+  }
+}
+
+```
