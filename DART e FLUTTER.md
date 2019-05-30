@@ -55,7 +55,8 @@ void main() {
 
 ## Aula 2
 
-```dart
+```
+# Dart
 void main() {
 	String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
   
