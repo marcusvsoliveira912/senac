@@ -55,6 +55,10 @@ void main() {
 
 ## Aula 2
 
+**.toStringAsFixed = dita a quantidade de digitos após a vírgula ou ponto**
+
+**if = cria uma codição lógica
+
 ```dart
 void main() {
 	String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
