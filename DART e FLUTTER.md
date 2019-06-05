@@ -264,3 +264,42 @@ void main() {
 
 ```
 
+### *IF* Aninhado ou *IF* Encadeado
+
+Quando temos mais do que 2 testes possíveis, é necessário alterar a estrutura e acrescentar um **else if** após o primeiro if.
+
+```dart
+
+void main() {
+  String cidade_natal;
+  
+  cidade_natal = "Aguaí";
+  
+  if(cidade_natal.toLowerCase() == "são joão da boa vista")
+  {
+    print("Sanjanense");
+  }
+  else if(cidade_natal.toLowerCase() == "tilambuco")
+  {
+    print("Tilambuquense");
+  }
+  else if(cidade_natal.toLowerCase() == "salvador")
+  {
+    print("Baiano");
+  }
+  else if(cidade_natal.toLowerCase() == "aguaí")
+  {
+    print("Bandido");
+  }
+  else if(cidade_natal.toLowerCase() == "pindamonhangaba")
+  {
+    print("Jaiminho Carteiro");
+  }
+  else 
+  {
+    print("Cidade não encontrada");
+  }
+}
+
+```
+
