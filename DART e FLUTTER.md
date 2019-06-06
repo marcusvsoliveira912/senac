@@ -196,7 +196,7 @@ double nota1, nota2, media;
 ```
 
 
-### Aula 3 - Lógica com DART
+## Aula 3 - Lógica com DART
 
 Foi importada a *biblioteca* **dart:math*** para podermos usar funções matemática como potência e raiz quadrada,
 no exemplo abaixo foi usada a função **math.sqrt()** para calcular a raiz de delta.
@@ -303,3 +303,45 @@ void main() {
 
 ```
 
+
+## Aula 4 - Operador Lógico
+
+**E (AND) %%**
+
+*"Somente sera **TRUE** se todas as expressões forem **VERDADEIRAS**".
+
+
+**OU (OR) ||**
+
+*"Somente será **FALSE** se todas as expressões forem **FALSAS**".*
+
+
+## Exemplo - Teste *BOOLEANO*
+
+
+```dart
+
+void main(){
+  
+  bool var_a, var_b;
+  
+  var_a = true;
+  var_b = false;
+  
+  print((!var_a && var_b) || (var_b || !var_b));
+  
+  int numero = 10;
+  
+  if(var_a == var_b)
+  {
+    numero = 666;
+  }
+  else
+  {
+    numero = numero + 1;
+  }
+  print(numero); 
+
+}
+
+```
