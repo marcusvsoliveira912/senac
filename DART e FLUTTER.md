@@ -364,7 +364,7 @@ void main() {
   //Essa é a chamada da função
   calcular(n1, n2, "+");
   calcular(n1, n2, "-"); 
-	calcular(n1, n2, "*");
+  calcular(n1, n2, "*");
   calcular(n1, n2, "/");
 
 }
