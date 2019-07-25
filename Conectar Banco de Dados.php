@@ -1,4 +1,3 @@
-```php
 <?php
     //informar o content type do arquivo
     header("Content-type: text/json");
@@ -37,4 +36,3 @@
 
 
 ?>
-```
